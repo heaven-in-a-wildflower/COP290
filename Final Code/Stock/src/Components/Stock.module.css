@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.chartContainer {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing between chart and info card */
+}
+
+.infoContainer {
+  flex: 1;
+  max-width: 400px; /* Adjust based on preference */
+}
+
+.card {
+  background-color: #f0f2f5; /* Light grey background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cardTitle {
+  margin-bottom: 16px;
+  color: #333; /* Dark grey text */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cardContent {
+  color: #666; /* Medium grey text */
+}
+
+.keyValueRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Space between rows */
+}
+
+.key {
+  font-weight: bold;
+}
+
+.value {
+   text-align: right;
+}
